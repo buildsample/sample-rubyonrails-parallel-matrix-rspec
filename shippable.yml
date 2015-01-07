@@ -30,4 +30,4 @@ script:
 
 after_script:
   - /etc/init.d/xvfb stop
-build_image: shippable/minv2
+build_image: shippable/minv2:beta
